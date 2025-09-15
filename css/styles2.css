@@ -1,0 +1,195 @@
+.about,
+.about * {
+  box-sizing: border-box;
+}
+.about {
+  background: #1b1b1b;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.sanjay-dv {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 80px;
+  top: 33px;
+  width: 413px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1055px;
+  top: 58px;
+  width: 167px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1163px;
+  top: 61px;
+  width: 71px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1272px;
+  top: 67px;
+  width: 150px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.budt-748-industry-practicum {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 80px;
+  top: 115px;
+  width: 1154px;
+  height: 129px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.budt-748-industry-practicum-provides-hands-on-experience-for-students-to-solve-business-problems-for-real-clients {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 244px;
+  width: 1044px;
+  height: 141px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sanjay-dv-university-of-maryland-fall-2025 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 405px;
+  top: 875px;
+  width: 630px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.semester-details-fall-2025 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 444px;
+  width: 402px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.semester-details-fall-2025-span {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.semester-details-fall-2025-span2 {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+.teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 575px;
+  width: 955px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder-span {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder-span2 {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+.professor-paul-t-shapiro {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 512px;
+  width: 915px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.professor-paul-t-shapiro-span {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.professor-paul-t-shapiro-span2 {
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
+.page-wrap {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+a.home, a.about2, a.contact {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+a.home:visited, a.about2:visited, a.contact:visited {
+  color: #ffffff !important;
+}

@@ -1,61 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vars.css">
-  <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
-</head>
-<body>
-  <div class="home-page">
-    <div class="sanjay-dv">Sanjay DV</div>
-    <div class="home">Home</div>
-    <div class="about">About</div>
-    <div class="contact">Contact</div>
-    <div class="let-s-create-a-website-design">LET’S CREATE A WEBSITE DESIGN</div>
-    <div
-      class="i-am-sanjay-dv-a-software-engineer-with-2-years-of-experience-in-backend-engineering-and-developing-data-pipelines-for-ml-applications"
-    >
-      I am Sanjay DV, a software engineer with 2 years of experience in backend
-      engineering and developing Data pipelines for ML applications.
-    </div>
-    <div class="rectangle"></div>
-    <div class="get-started">Get Started</div>
-    <div class="sanjay-dv-university-of-maryland-fall-2025">
-      © Sanjay DV | University of Maryland | Fall 2025
-    </div>
-  </div>
-  
-</body>
-</html>
+.home-page,
+.home-page * {
+  box-sizing: border-box;
+}
+.home-page {
+  background: #1b1b1b;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.sanjay-dv {
+  color: #fffbfb;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 81px;
+  top: 33px;
+  width: 413px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home {
+  color: #fffbfb;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1055px;
+  top: 58px;
+  width: 167px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about {
+  color: #fffbfb;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1163px;
+  top: 61px;
+  width: 71px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: #fffbfb;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1272px;
+  top: 67px;
+  width: 150px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.let-s-create-a-website-design {
+  color: #fffbfb;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  position: absolute;
+  left: 68px;
+  top: 303px;
+  width: 1304px;
+  height: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-am-sanjay-dv-a-software-engineer-with-2-years-of-experience-in-backend-engineering-and-developing-data-pipelines-for-ml-applications {
+  color: #fffbfb;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 262px;
+  top: 504px;
+  width: 916px;
+  height: 117px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle {
+  background: #a8ff35;
+  border-radius: 30px;
+  width: 180px;
+  height: 57px;
+  position: absolute;
+  left: 630px;
+  top: 702px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.get-started {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 630px;
+  top: 702px;
+  width: 180px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sanjay-dv-university-of-maryland-fall-2025 {
+  color: #fffbfb;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 405px;
+  top: 875px;
+  width: 630px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center the whole canvas while keeping your absolute positions */
+.page-wrap {
+  width: 1440px;         /* your Figma frame width */
+  margin: 0 auto;        /* centers the page */
+  position: relative;    /* keeps absolute children positioned as before */
+}
+
+/* Force nav link color to be visible (white) */
+a.home, a.about, a.contact {
+  color: #fffbfb !important;
+  text-decoration: none;
+}
+a.home:visited, a.about:visited, a.contact:visited {
+  color: #fffbfb !important;
+}
